@@ -25,9 +25,9 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex h-screen bg-[#0b0f1a]">
       <Sidebar />
-      <div className="ml-56 flex-1 overflow-auto">
+      <div className="ml-64 flex-1 overflow-auto">
         <div className="p-8">
           {children}
         </div>
